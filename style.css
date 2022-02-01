@@ -1,0 +1,70 @@
+#bord{
+    width: 100px;
+    margin-left: 450px;
+    border: solid 2px;
+    box-shadow: white;
+}
+body{
+    text-align: center;
+    background-color: turquoise;
+
+}
+#escoperacao{
+    margin-left: -5px;
+}
+#escoutronumero{
+    margin-left: 45px;
+
+}
+#bt{
+    margin-top: 15px;
+    border-radius: 5px 5px 5px black;
+    font-size: 20px;
+}
+#sec{
+    font-size: 30px;
+    margin-top: 50px;
+   
+    border: 10px;
+    padding: 15px;
+   
+    
+}
+#result{
+    margin-top: 15px;
+    font-size: 25px;
+}
+#n1{
+    font-size: 19px;
+    width: 65px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 1px;
+    box-shadow: black;
+}
+#n2{
+    font-size: 19px;
+    width: 65px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 1px;
+    box-shadow: black;
+}
+#operacao{
+    font-size: 19px;
+    width: 50px;
+    margin-left: -10px;
+    border-radius: 1px;
+    box-shadow: black;
+}
+#TIT{
+    margin-top: 50px;
+    text-align: center;
+}
+#calc{
+    height: 120px;
+}
+#escoperacao{
+    text-align: center;
+    margin-left: -10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+            <fieldset id="bord">
+    <h1 id="TIT">C A L C U L A D O R A</h1>
+    <img src="calc.png" alt="" srcset="" id="calc">
+<section id="sec">
+  <label id="escumnumero"> Escolha um número: <br><input type="number" name="n1" id="n1"></label><br>
+<label id="escoperacao">Escolha a operação: <br>
+<select name="escolha" id="operacao">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option> 
+</label> 
+</select><br>
+<label id="escoutronumero">Escolha o outro número: <br> <input type="number" name="n2" id="n2"></label><br>
+</section>
+</fieldset>
+<input type="button" value="Calcular" onclick="calcular()" id="bt">
+
+
+
+
+<strong><div id="result">
+
+</div></strong> 
+
+
+
+
+
+
+
+<script src="calculadora.js"></script>    
+</body>
+</html>
