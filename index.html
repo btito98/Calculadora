@@ -15,16 +15,16 @@
         <h1 id="TIT">C A L C U L A D O R A</h1>
         <img src="calc.png" alt="" srcset="" id="calc">
         <section id="sec">
-            <label id="escumnumero"> Escolha um número: <br><input type="number" name="n1" id="n1"></label><br>
+            <label id="escumnumero"> Escolha um número: <br><input type="number" name="n1" id="n1" required></label><br>
             <label id="escoperacao">Escolha a operação: <br>
-                <select name="escolha" id="operacao">
+                <select name="escolha" id="operacao" required>
                     <option value="+">+</option>
                     <option value="-">-</option>
                     <option value="*">*</option>
                     <option value="/">/</option>
             </label>
             </select><br>
-            <label id="escoutronumero">Escolha o outro número: <br> <input type="number" name="n2" id="n2"></label><br>
+            <label id="escoutronumero">Escolha o outro número: <br> <input type="number" name="n2" id="n2" required></label><br>
         </section>
     </fieldset>
     <input type="button" value="Calcular" onclick="calcular()" id="bt">
