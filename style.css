@@ -1,70 +1,54 @@
-#bord{
-    width: 100px;
-    margin-left: 450px;
-    border: solid 2px;
-    box-shadow: white;
-}
 body{
+    background-color: #1E90FF
+    ;
+}
+.container{
+    padding: 0;
+    margin: 0 auto;
     text-align: center;
-    background-color: turquoise;
+    border: 1px solid #000;
+    width: 50%;
+}
+
+.main input{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
 
 }
-#escoperacao{
-    margin-left: -5px;
-}
-#escoutronumero{
-    margin-left: 45px;
 
+#operations {
+    border-radius: 5px;
+    width: 20%;
+    margin-bottom: 20px;
 }
-#bt{
-    margin-top: 15px;
-    border-radius: 5px 5px 5px black;
-    font-size: 20px;
-}
-#sec{
+
+.main label{
+    display: flex;
+    flex-direction: column;
     font-size: 30px;
-    margin-top: 50px;
-   
-    border: 10px;
-    padding: 15px;
-   
-    
+    margin-bottom: 20px;
 }
-#result{
-    margin-top: 15px;
-    font-size: 25px;
+
+#button-calculate{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
-#n1{
-    font-size: 19px;
-    width: 65px;
-    text-align: center;
-    padding: 3px;
-    border-radius: 1px;
-    box-shadow: black;
+
+.header-image {
+    height: 250px;
+    background-image: url('calc.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-#n2{
-    font-size: 19px;
-    width: 65px;
-    text-align: center;
-    padding: 3px;
-    border-radius: 1px;
-    box-shadow: black;
-}
-#operacao{
-    font-size: 19px;
-    width: 50px;
-    margin-left: -10px;
-    border-radius: 1px;
-    box-shadow: black;
-}
-#TIT{
-    margin-top: 50px;
-    text-align: center;
-}
-#calc{
-    height: 120px;
-}
-#escoperacao{
-    text-align: center;
-    margin-left: -10px;
+
+@media only screen and (max-width: 768px) {
+    .header-image {
+        height: 100px;
+    }
 }
